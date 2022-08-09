@@ -17,6 +17,6 @@ def longest(a1, a2):
     # I am using the set function as it returns only unique numbers
     # however, set func also has an unpredictable behavior, so we need to
     # get back to list and sort it.
-    return ''.join([str(i) for i in sorted(list(set(a1+a2)))])
+    return print(''.join([str(i) for i in sorted(list(set(a1+a2)))]))
 
 longest("aretheyhere", "yestheyarehere")
